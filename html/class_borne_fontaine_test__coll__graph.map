@@ -1,0 +1,6 @@
+<map id="BorneFontaineTest" name="BorneFontaineTest">
+<area shape="rect" id="node1" title=" " alt="" coords="6,185,149,212"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,107,108"/>
+<area shape="rect" id="node3" href="$classtp2_1_1_borne_fontaine.html" title="une classe qui permet de représenter les bornes&#45;fontaines de la ville de Québec" alt="" coords="131,81,277,108"/>
+<area shape="rect" id="node4" href="$classtp2_1_1_borne.html" title="une classe qui permet de modéliser tous les types de bornes présents dans la ville de Québec." alt="" coords="159,5,249,32"/>
+</map>

@@ -1,0 +1,85 @@
+\hypertarget{_borne_testeur_8cpp}{}\doxysection{source/tests/\+Borne\+Testeur.cpp File Reference}
+\label{_borne_testeur_8cpp}\index{source/tests/BorneTesteur.cpp@{source/tests/BorneTesteur.cpp}}
+
+
+Fichier de Test pour tester Borne.  
+
+
+{\ttfamily \#include \char`\"{}Borne.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Contrat\+Exception.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+Include dependency graph for Borne\+Testeur.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_borne_testeur_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_ab8f565a6122b8bd027e81cd07ababe75}\label{_borne_testeur_8cpp_ab8f565a6122b8bd027e81cd07ababe75}} 
+{\bfseries TEST} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Constructeur\+Valide)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a22e8edda51879823daf910340d304c43}\label{_borne_testeur_8cpp_a22e8edda51879823daf910340d304c43}} 
+{\bfseries TEST} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Constructeur\+Valide\+Vide)
+\item 
+\mbox{\hyperlink{_borne_testeur_8cpp_aeebb20fdca386966ad6e6df89c6ad1f7}{TEST}} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Constructeur\+Invalide\+Id\+Negatif)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a5a24758d05bde590838565e20e6d0219}\label{_borne_testeur_8cpp_a5a24758d05bde590838565e20e6d0219}} 
+{\bfseries TEST} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Constructeur\+Invalide\+Voie\+Alpha)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a13051eb4cf5de06ffb306751328950d3}\label{_borne_testeur_8cpp_a13051eb4cf5de06ffb306751328950d3}} 
+{\bfseries TEST} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Constructeur\+Invalide\+Topographique\+Vide)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_ad4b7e44d0c9505f90f8cffe017b0f00d}\label{_borne_testeur_8cpp_ad4b7e44d0c9505f90f8cffe017b0f00d}} 
+\mbox{\hyperlink{_borne_testeur_8cpp_ad4b7e44d0c9505f90f8cffe017b0f00d}{TEST}} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Borne\+Assg\+Nomtopographique)
+\begin{DoxyCompactList}\small\item\em test de l\textquotesingle{}assignateur de Borne Cas Valide \+: La nouvelle adresse a bien été sauvegardée Cas Invalide \+: La nouvelle adresse n\textquotesingle{}a pas été sauvegardée \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_adbf5bf42c83dd634ff43b39908b9b80b}\label{_borne_testeur_8cpp_adbf5bf42c83dd634ff43b39908b9b80b}} 
+\mbox{\hyperlink{_borne_testeur_8cpp_adbf5bf42c83dd634ff43b39908b9b80b}{TEST}} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Bornes\+Egal)
+\begin{DoxyCompactList}\small\item\em test de l\textquotesingle{}operateur == Cas Valide \+: L\textquotesingle{}operateur fonctionne Cas Invalide \+: L\textquotesingle{}opérateur ne fait pas la différence entre une borne qui est pas pareil à l\textquotesingle{}autre \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a67184a6f17afe90d1c07a6282378dd32}\label{_borne_testeur_8cpp_a67184a6f17afe90d1c07a6282378dd32}} 
+\mbox{\hyperlink{_borne_testeur_8cpp_a67184a6f17afe90d1c07a6282378dd32}{TEST}} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Bornes\+Req\+Identifiant)
+\begin{DoxyCompactList}\small\item\em test des accesseurs Cas Valide \+: Toute les valeurs retourné sont ceux entrées Cas Invalide \+: une des valeur retourné n\textquotesingle{}est pas la bonne \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_ac3c552051dd9f3cc81645d768f8e4f9c}\label{_borne_testeur_8cpp_ac3c552051dd9f3cc81645d768f8e4f9c}} 
+{\bfseries TEST} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Borne\+Req\+Topographique)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_ac7d2d61e135a1911769e5ecc1b0c6453}\label{_borne_testeur_8cpp_ac7d2d61e135a1911769e5ecc1b0c6453}} 
+{\bfseries TEST} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Borne\+Req\+Voie)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_af14b3680a0540ed93324d0291ef24bc9}\label{_borne_testeur_8cpp_af14b3680a0540ed93324d0291ef24bc9}} 
+{\bfseries TEST} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Borne\+Req\+Latitude)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a5d9b8762370216d26161ed0332e1ee2f}\label{_borne_testeur_8cpp_a5d9b8762370216d26161ed0332e1ee2f}} 
+{\bfseries TEST} (\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}, Borne\+Req\+Longitude)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a93d5ab4c5553c8c4a75bb9b79477c2c9}\label{_borne_testeur_8cpp_a93d5ab4c5553c8c4a75bb9b79477c2c9}} 
+\mbox{\hyperlink{_borne_testeur_8cpp_a93d5ab4c5553c8c4a75bb9b79477c2c9}{TEST}} (\mbox{\hyperlink{classtp2_1_1_borne}{Borne}}, Borne\+Formate)
+\begin{DoxyCompactList}\small\item\em test de Borne\+Formate Cas Valide \+: l\textquotesingle{}affichage est correct Cas Invalide \+: l\textquotesingle{}affichage est erroné \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fichier de Test pour tester Borne. 
+
+\begin{DoxyAuthor}{Author}
+Amenallah Massarra Ouannes 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24 Mars 2024 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_borne_testeur_8cpp_aeebb20fdca386966ad6e6df89c6ad1f7}\label{_borne_testeur_8cpp_aeebb20fdca386966ad6e6df89c6ad1f7}} 
+\index{BorneTesteur.cpp@{BorneTesteur.cpp}!TEST@{TEST}}
+\index{TEST@{TEST}!BorneTesteur.cpp@{BorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST()}{TEST()}}
+{\footnotesize\ttfamily TEST (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}}]{,  }\item[{Constructeur\+Invalide\+Id\+Negatif}]{ }\end{DoxyParamCaption})}
+
+try \{\mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}} un\+Borne(-\/202,\char`\"{}1\char`\"{},\char`\"{}\+Rue de l\textquotesingle{}universite\char`\"{},1.\+2,2.\+5);\} catch (\mbox{\hyperlink{class_precondition_exception}{Precondition\+Exception}}\& erreur) \{std\+::cout $<$$<$ erreur.\+req\+Texte\+Exception () $<$$<$ std\+::endl;\}

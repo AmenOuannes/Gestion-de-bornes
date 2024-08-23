@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegistreGUI</class>
+ <widget class="QMainWindow" name="RegistreGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RegistreGUI</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="affichage">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>661</width>
+      <height>441</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuAjouter_une_Borne">
+     <property name="title">
+      <string>Ajouter une Borne</string>
+     </property>
+     <addaction name="actionBorne_Fontaine"/>
+     <addaction name="actionBorne_Stationnement"/>
+    </widget>
+    <addaction name="menuAjouter_une_Borne"/>
+    <addaction name="actionSupprimer_une_Borne"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBorne_Fontaine">
+   <property name="text">
+    <string>Borne Fontaine</string>
+   </property>
+  </action>
+  <action name="actionBorne_Stationnement">
+   <property name="text">
+    <string>Borne Stationnement</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_une_Borne">
+   <property name="text">
+    <string>Supprimer une Borne</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>RegistreGUI</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionBorne_Fontaine</sender>
+   <signal>triggered()</signal>
+   <receiver>RegistreGUI</receiver>
+   <slot>fenetre_fontaine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionBorne_Stationnement</sender>
+   <signal>triggered()</signal>
+   <receiver>RegistreGUI</receiver>
+   <slot>fenetre_stationnement()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSupprimer_une_Borne</sender>
+   <signal>triggered()</signal>
+   <receiver>RegistreGUI</receiver>
+   <slot>fenetre_supprimer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>fenetre_fontaine()</slot>
+  <slot>fenetre_stationnement()</slot>
+  <slot>fenetre_supprimer()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,4 @@
+<map id="tp2::BorneFontaine" name="tp2::BorneFontaine">
+<area shape="rect" id="node1" title="une classe qui permet de représenter les bornes&#45;fontaines de la ville de Québec" alt="" coords="5,80,151,107"/>
+<area shape="rect" id="node2" href="$classtp2_1_1_borne.html" title="une classe qui permet de modéliser tous les types de bornes présents dans la ville de Québec." alt="" coords="33,5,123,32"/>
+</map>

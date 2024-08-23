@@ -1,0 +1,4 @@
+<map id="tp2::BorneStationnement" name="tp2::BorneStationnement">
+<area shape="rect" id="node1" title=" " alt="" coords="5,80,191,107"/>
+<area shape="rect" id="node2" href="$classtp2_1_1_borne.html" title="une classe qui permet de modéliser tous les types de bornes présents dans la ville de Québec." alt="" coords="53,5,143,32"/>
+</map>

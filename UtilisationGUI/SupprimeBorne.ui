@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SupprimeBorne</class>
+ <widget class="QDialog" name="SupprimeBorne">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>836</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SupprimeBorne</string>
+  </property>
+  <widget class="QPushButton" name="annuler_btn">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>280</y>
+     <width>90</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>annuler</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="supprime_btn">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>280</y>
+     <width>90</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>supprimer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>281</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Donner l'identifiant de la borne à supprimer</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="case_id">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>140</y>
+     <width>101</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>1000000000</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>supprime_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>SupprimeBorne</receiver>
+   <slot>valider()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>274</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>417</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>annuler_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>SupprimeBorne</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>534</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>417</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>valider()</slot>
+ </slots>
+</ui>

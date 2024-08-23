@@ -1,0 +1,187 @@
+\hypertarget{classtp2_1_1_borne}{}\doxysection{tp2\+::Borne Class Reference}
+\label{classtp2_1_1_borne}\index{tp2::Borne@{tp2::Borne}}
+
+
+une classe qui permet de modéliser tous les types de bornes présents dans la ville de Québec.  
+
+
+
+
+{\ttfamily \#include $<$Borne.\+h$>$}
+
+
+
+Inheritance diagram for tp2\+::Borne\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtp2_1_1_borne__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtp2_1_1_borne_af7904faa54c07c29440fb3cd9439ff48}{Borne}} (int p\+\_\+identifiant, const std\+::string \&p\+\_\+identifiant\+Voie\+Publique, const std\+::string \&p\+\_\+nom\+Topographique, double p\+\_\+longitude, double p\+\_\+latitude)
+\begin{DoxyCompactList}\small\item\em Constructeur de \mbox{\hyperlink{classtp2_1_1_borne}{Borne}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a0902b5bbabdb06d06f40962ef200f8a6}\label{classtp2_1_1_borne_a0902b5bbabdb06d06f40962ef200f8a6}} 
+int {\bfseries req\+Identifiant} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a88b8de4b8ecfc2a2d7bf8f53064ea69b}\label{classtp2_1_1_borne_a88b8de4b8ecfc2a2d7bf8f53064ea69b}} 
+std\+::string {\bfseries req\+Voiepublique} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a513c87ee6bccdc5fb3be51631ce9c4c0}\label{classtp2_1_1_borne_a513c87ee6bccdc5fb3be51631ce9c4c0}} 
+std\+::string {\bfseries req\+Nomtopographique} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a9a3c14c90f0161991fd8cf9ca8f39aae}\label{classtp2_1_1_borne_a9a3c14c90f0161991fd8cf9ca8f39aae}} 
+double {\bfseries req\+Longitude} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a6df395f6e342687f7f991122ab7f4533}\label{classtp2_1_1_borne_a6df395f6e342687f7f991122ab7f4533}} 
+double {\bfseries req\+Latitude} () const
+\item 
+void \mbox{\hyperlink{classtp2_1_1_borne_a83ef42145397784a5f85cef32bdb6ffd}{asg\+Nomtopographique}} (const std\+::string \&p\+\_\+nom\+Topographique)
+\begin{DoxyCompactList}\small\item\em Mutateur pour Nom\+Topographique, modifie m\+\_\+nom\+Topographique. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classtp2_1_1_borne_a80896c4669859afac349aceadf03d4d9}{operator==}} (const \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} \&p\+\_\+bornes) const
+\begin{DoxyCompactList}\small\item\em Opérateur d\textquotesingle{}égalité. Si une seule propriété n\textquotesingle{}est pas identique, les bornes ne sont pas identique. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_abb1f1a2dcdadb484241f466d010cdd28}\label{classtp2_1_1_borne_abb1f1a2dcdadb484241f466d010cdd28}} 
+virtual std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} $>$ {\bfseries clone} () const =0
+\item 
+virtual std\+::string \mbox{\hyperlink{classtp2_1_1_borne_aa1369224bc6493e297b13681c8b9e36a}{req\+Borne\+Formate}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour string de \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} formatté \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_af7904faa54c07c29440fb3cd9439ff48}\label{classtp2_1_1_borne_af7904faa54c07c29440fb3cd9439ff48}} 
+{\bfseries Borne} (int p\+\_\+identifiant, const std\+::string \&p\+\_\+identifiant\+Voie\+Publique, const std\+::string \&p\+\_\+nom\+Topographique, double p\+\_\+longitude, double p\+\_\+latitude)
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a0902b5bbabdb06d06f40962ef200f8a6}\label{classtp2_1_1_borne_a0902b5bbabdb06d06f40962ef200f8a6}} 
+int {\bfseries req\+Identifiant} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a88b8de4b8ecfc2a2d7bf8f53064ea69b}\label{classtp2_1_1_borne_a88b8de4b8ecfc2a2d7bf8f53064ea69b}} 
+std\+::string {\bfseries req\+Voiepublique} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a513c87ee6bccdc5fb3be51631ce9c4c0}\label{classtp2_1_1_borne_a513c87ee6bccdc5fb3be51631ce9c4c0}} 
+std\+::string {\bfseries req\+Nomtopographique} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a9a3c14c90f0161991fd8cf9ca8f39aae}\label{classtp2_1_1_borne_a9a3c14c90f0161991fd8cf9ca8f39aae}} 
+double {\bfseries req\+Longitude} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a6df395f6e342687f7f991122ab7f4533}\label{classtp2_1_1_borne_a6df395f6e342687f7f991122ab7f4533}} 
+double {\bfseries req\+Latitude} () const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a83ef42145397784a5f85cef32bdb6ffd}\label{classtp2_1_1_borne_a83ef42145397784a5f85cef32bdb6ffd}} 
+void {\bfseries asg\+Nomtopographique} (const std\+::string \&p\+\_\+nom\+Topographique)
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_a80896c4669859afac349aceadf03d4d9}\label{classtp2_1_1_borne_a80896c4669859afac349aceadf03d4d9}} 
+bool {\bfseries operator==} (const \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} \&p\+\_\+bornes) const
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_abb1f1a2dcdadb484241f466d010cdd28}\label{classtp2_1_1_borne_abb1f1a2dcdadb484241f466d010cdd28}} 
+virtual std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} $>$ {\bfseries clone} () const =0
+\item 
+\mbox{\Hypertarget{classtp2_1_1_borne_ae92d8404f649b72db30a524c2b21e731}\label{classtp2_1_1_borne_ae92d8404f649b72db30a524c2b21e731}} 
+virtual std\+::string {\bfseries req\+Borne\+Formate} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+une classe qui permet de modéliser tous les types de bornes présents dans la ville de Québec. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtp2_1_1_borne_af7904faa54c07c29440fb3cd9439ff48}\label{classtp2_1_1_borne_af7904faa54c07c29440fb3cd9439ff48}} 
+\index{tp2::Borne@{tp2::Borne}!Borne@{Borne}}
+\index{Borne@{Borne}!tp2::Borne@{tp2::Borne}}
+\doxysubsubsection{\texorpdfstring{Borne()}{Borne()}}
+{\footnotesize\ttfamily tp2\+::\+Borne\+::\+Borne (\begin{DoxyParamCaption}\item[{int}]{p\+\_\+identifiant,  }\item[{const std\+::string \&}]{p\+\_\+identifiant\+Voie\+Publique,  }\item[{const std\+::string \&}]{p\+\_\+nom\+Topographique,  }\item[{double}]{p\+\_\+longitude,  }\item[{double}]{p\+\_\+latitude }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \mbox{\hyperlink{classtp2_1_1_borne}{Borne}}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+idfentifiant} & int Le numéro de la borne. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+identifiant\+Voie\+Publique} & string la voie publique sur laquelle la borne est située. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+nom\+Topographique} & string Le nom topographique(générique,liaison,spécifique,direction) du centre de la chaussée. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+longitude} & double La longitude de la borne defaut de 0 \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+latitude} & double La latitude de la borne defaut de 0 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+p\+\_\+id\+Borne doit être non vide 
+
+p\+\_\+direction doit être un point cardinal valide \mbox{[}Nord,Sud,Est,Ouest,\char`\"{}\char`\"{},null\mbox{]} 
+
+p\+\_\+nom\+Topographique doit être non vide 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+vérification que tout les attribute nécessaire contienne des valeurs valides 
+\end{DoxyPostcond}
+\begin{DoxyReturn}{Returns}
+un objet \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtp2_1_1_borne_a83ef42145397784a5f85cef32bdb6ffd}\label{classtp2_1_1_borne_a83ef42145397784a5f85cef32bdb6ffd}} 
+\index{tp2::Borne@{tp2::Borne}!asgNomtopographique@{asgNomtopographique}}
+\index{asgNomtopographique@{asgNomtopographique}!tp2::Borne@{tp2::Borne}}
+\doxysubsubsection{\texorpdfstring{asgNomtopographique()}{asgNomtopographique()}}
+{\footnotesize\ttfamily void tp2\+::\+Borne\+::asg\+Nomtopographique (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{p\+\_\+nom\+Topographique }\end{DoxyParamCaption})}
+
+
+
+Mutateur pour Nom\+Topographique, modifie m\+\_\+nom\+Topographique. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+nom\+Topographique} & Le nom topographique(générique,liaison,spécifique,direction) du centre de la chaussée. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+nouveau Nom Topographique doit être non vide 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+vérifie que l\textquotesingle{}attribut m\+\_\+nom\+Topographique contient le nouveau nom courant. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classtp2_1_1_borne_a80896c4669859afac349aceadf03d4d9}\label{classtp2_1_1_borne_a80896c4669859afac349aceadf03d4d9}} 
+\index{tp2::Borne@{tp2::Borne}!operator==@{operator==}}
+\index{operator==@{operator==}!tp2::Borne@{tp2::Borne}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool tp2\+::\+Borne\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} \&}]{p\+\_\+bornes }\end{DoxyParamCaption}) const}
+
+
+
+Opérateur d\textquotesingle{}égalité. Si une seule propriété n\textquotesingle{}est pas identique, les bornes ne sont pas identique. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+borne} & un objet de type \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+booleen 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtp2_1_1_borne_aa1369224bc6493e297b13681c8b9e36a}\label{classtp2_1_1_borne_aa1369224bc6493e297b13681c8b9e36a}} 
+\index{tp2::Borne@{tp2::Borne}!reqBorneFormate@{reqBorneFormate}}
+\index{reqBorneFormate@{reqBorneFormate}!tp2::Borne@{tp2::Borne}}
+\doxysubsubsection{\texorpdfstring{reqBorneFormate()}{reqBorneFormate()}}
+{\footnotesize\ttfamily std\+::string tp2\+::\+Borne\+::req\+Borne\+Formate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Accesseur pour string de \mbox{\hyperlink{classtp2_1_1_borne}{Borne}} formatté 
+
+\begin{DoxyReturn}{Returns}
+borne\+Formate 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classtp2_1_1_borne_stationnement_a8b22b887057bdc987a6e0f036accda7b}{tp2\+::\+Borne\+Stationnement}}, \mbox{\hyperlink{classtp2_1_1_borne_fontaine_aca20a25986f40f9231ada52d63348707}{tp2\+::\+Borne\+Fontaine}}, \mbox{\hyperlink{classtp2_1_1_borne_stationnement_ab6e16d03be85b2c423656cb1c2493405}{tp2\+::\+Borne\+Stationnement}}, and \mbox{\hyperlink{classtp2_1_1_borne_fontaine_ac541a2d16363133950c05e9dbb14eb54}{tp2\+::\+Borne\+Fontaine}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_borne_8h}{Borne.\+h}}\item 
+\mbox{\hyperlink{_borne_8cpp}{Borne.\+cpp}}\end{DoxyCompactItemize}
